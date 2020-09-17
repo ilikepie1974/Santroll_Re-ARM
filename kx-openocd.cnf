@@ -1,0 +1,36 @@
+source [find rpi1.cfg]
+
+transport select swd
+
+set CPUTAPID 0x0bc11477
+
+#source [find target/kx.cfg]
+source [find target/ke0x.cfg] 
+
+cortex_m reset_config sysresetreq
+
+$_TARGETNAME configure -event gdb-attach {
+  halt
+}
+
+# did not yet manage to make a working setup using srst
+#reset_config srst_only
+#cortex_m reset_config sysresetreq
+ 
+adapter srst delay 100
+adapter srst pulse_width 100
+#reset_config srst_nogate
+adapter speed 20 
+
+#swd newdap chip cpu -enable
+#dap create chip.dap -chain-position chip.cpu
+
+# Set up the GDB target for the CPU, cortex_m is the CPU type, 
+#target create chip.cpu cortex_m -dap chip.dap
+# init reads out all of the necessary information from the DAP, kicks off the debugging session, etc
+init
+# Read out the information from the DAP, including the ROM table
+dap info
+
+targets
+reset halt
