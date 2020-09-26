@@ -1,0 +1,13 @@
+Welcome to the Santrol Controller (Lime SJ 2.5) Re-ARMing Helper, by hit the Continue button this script will automatically download, compile and install all the required
+softwares to allow you using your Pi as an interface to program the controller. For now is possible to interface only Santroll Controllers based on MKE02Z64.
+Please note: this script will NOT provide any method or firmware that is actualy owned by Lime. You have to write your own software for the controller.
+Keep in mind that such operation should be carried only on hardware YOU LEGALLY OWN.
+
+PLEASE BE AWARE THAT MESS WITH FLASH MEMORY COULD LEAD YOU IN A VERY BAD SITUATION IN WHICH THE CONTROLLER COULD BECOME USELESS FOR THAT REASON IS STRONGLY SUGGESTED TO
+DUMP THE FLASH MEMORY BEFORE ATTEMPING TO DO ANYTHING ELSE !!!
+That being said if you feel uncomfortable with this kind of software usage hit the Cancel button to abort the installation, no modificationa will be done on your system.
+
+CREDITS:
+
+- TheJoker187
+- tokala 
