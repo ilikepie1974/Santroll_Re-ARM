@@ -1,3 +1,4 @@
 # Santroll_Re-ARM
 
-TO Install: git clone https://github.com/NitroProp/Santroll_Re-ARM -O INSTALL && bash INSTALL
+TO Install: git clone https://github.com/NitroProp/Santroll_Re-ARM
+sudo INSTALL
