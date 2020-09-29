@@ -13,6 +13,11 @@ height=35
 function main()
 {
 echo "Script Begin"
+echo
+echo "Cloning Repo"
+echo
+git clone https://github.com/NitroProp/Santroll_Re-ARM
+echo
 
 ask_cancel
 
@@ -81,9 +86,6 @@ echo "Installing"
 echo
 sudo make install
 echo
-echo "Changing to Working Directory "
-echo
-cd Santroll_Re-ARM
 echo "Installation Completed"
 }
 
