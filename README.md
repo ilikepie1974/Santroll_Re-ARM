@@ -7,7 +7,7 @@ so the intallation process can take some times on the Pi0W
 ### Installation
 Run the script and follow the assistant:
 
-`wget https://git.io/JU1GT -O INTALL.sh && sudo bash INTALL.sh`
+`wget https://git.io/JU1GT -O INSTALL.sh && sudo bash INSTALL.sh`
 
 ### Supported Rpi Boards:
 - RaspberryPi Zero W
