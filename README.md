@@ -5,6 +5,8 @@ This is achived by the use of the OpenOCD software. PLEASE NOTE the OpenOCD is d
 so the intallation process can take some times on the Pi0W
 
 ### Installation
+NOTE: For the best experience use full-screen on your ssh session !
+
 Run the script and follow the assistant:
 
 `wget https://git.io/JU1GT -O INSTALL.sh && sudo bash INSTALL.sh`
