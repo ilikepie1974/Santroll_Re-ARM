@@ -5,7 +5,7 @@ This is achived by the use of the OpenOCD software. PLEASE NOTE the OpenOCD is d
 so the intallation process can take some times on the Pi0W
 
 ### Installation
-NOTE: For the best experience use full-screen on your ssh session !
+NOTE: For the best installation experience use full-screen when you ssh into the Pi!
 
 Run the script and follow the assistant:
 
