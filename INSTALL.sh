@@ -7,7 +7,7 @@ tyellow=$(tput setaf 3)
 tdef=$(tput sgr0)
 
 backtitle="SanTroll Controller Re-ARMing Utility"
-width=75
+width=65
 height=35
 
 function main()
@@ -63,10 +63,6 @@ echo
 echo "Changing Directory to ~"
 echo
 cd ~
-echo
-echo "Updating the System"
-echo
-apt-get update
 echo
 echo "Retrivig needed Softwares"
 echo
