@@ -14,6 +14,14 @@ function main()
 {
 echo "Script Begin"
 echo
+echo "Updating System"
+echo
+apt-get update
+echo
+echo "Installing GIT"
+echo
+apt-get install git
+echo
 echo "Cloning Repo"
 echo
 git clone https://github.com/NitroProp/Santroll_Re-ARM
@@ -59,7 +67,7 @@ apt-get update
 echo
 echo "Retrivig needed Softwares"
 echo
-PACKAGES="git autoconf libtool make pkg-config libusb-1.0-0 libusb-1.0-0-dev telnet"
+PACKAGES="autoconf libtool make pkg-config libusb-1.0-0 libusb-1.0-0-dev telnet"
 apt-get install $PACKAGES -y
 echo
 echo "Cloning OpenOcd"
