@@ -20,12 +20,15 @@ apt-get update
 echo
 echo "Installing GIT"
 echo
-apt-get install git
+apt-get install git -y
 echo
 echo "Cloning Repo"
 echo
 git clone https://github.com/NitroProp/Santroll_Re-ARM
 echo
+echo "Changing directory to working Dir: "
+echo
+cd Santroll_Re-ARM
 
 ask_cancel
 
