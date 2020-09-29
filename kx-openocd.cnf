@@ -1,3 +1,5 @@
+#CREDIT OF: tokala
+
 source [find rpi1.cfg]
 
 transport select swd
@@ -13,7 +15,6 @@ $_TARGETNAME configure -event gdb-attach {
   halt
 }
 
-# did not yet manage to make a working setup using srst
 #reset_config srst_only
 #cortex_m reset_config sysresetreq
  
