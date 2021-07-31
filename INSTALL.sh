@@ -77,7 +77,7 @@ echo "Changing Directory to openocd"
 echo
 cd openocd
 echo
-echo"Bootstrapping openocd"
+echo "Bootstrapping openocd"
 echo
 ./bootstrap
 echo
